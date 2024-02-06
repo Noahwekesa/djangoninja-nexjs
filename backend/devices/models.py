@@ -10,7 +10,7 @@ class Location(models.Model):
     def __str__(self):
         return self.name
 
-class Devices(models.Model):
+class Device(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     name = models.CharField(max_length=150)
     slug = AutoSlugField(populate_from='name')
