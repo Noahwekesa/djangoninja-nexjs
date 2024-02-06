@@ -40,6 +40,9 @@ INSTALLED_APPS = [
  
     # my apps
     'devices',
+
+    # third party apps
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
