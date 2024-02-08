@@ -1,1 +1,1 @@
-# Django Ninja - Fast Django REST Framework & Nextjs
+# Django Ninja - Django REST Framework & Nextjs
