@@ -22,3 +22,6 @@ class DeviceCreateSchema(Schema):
 
 class Error(Schema):
     message: str
+
+class DeviceLocationPath(Schema):
+    location_id: int | None = None
